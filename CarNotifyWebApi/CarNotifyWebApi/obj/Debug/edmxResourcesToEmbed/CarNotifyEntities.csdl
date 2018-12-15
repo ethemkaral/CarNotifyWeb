@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ATKModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="NOTIFYLOG">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="SenderQR" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ReceiverQR" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Date" Type="DateTime" Precision="0" />
+  </EntityType>
+  <EntityType Name="QRINFO">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="QRCode" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Plaka" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Ad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Soyad" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Telefon" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Token" Relationship="Self.FK_Token_QRINFO" FromRole="QRINFO" ToRole="Token" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="Token">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" />
+    <Property Name="Token1" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="QRId" Type="Int32" />
+    <NavigationProperty Name="QRINFO" Relationship="Self.FK_Token_QRINFO" FromRole="Token" ToRole="QRINFO" />
+  </EntityType>
+  <Association Name="FK_Token_QRINFO">
+    <End Role="QRINFO" Type="Self.QRINFO" Multiplicity="0..1" />
+    <End Role="Token" Type="Self.Token" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="QRINFO">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Token">
+        <PropertyRef Name="QRId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ATKEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="NOTIFYLOG" EntityType="Self.NOTIFYLOG" />
+    <EntitySet Name="QRINFO" EntityType="Self.QRINFO" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <EntitySet Name="Token" EntityType="Self.Token" />
+    <AssociationSet Name="FK_Token_QRINFO" Association="Self.FK_Token_QRINFO">
+      <End Role="QRINFO" EntitySet="QRINFO" />
+      <End Role="Token" EntitySet="Token" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

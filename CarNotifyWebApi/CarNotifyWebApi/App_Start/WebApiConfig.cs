@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http.Formatting;
 using System.Web.Http;
 
 namespace CarNotifyWebApi
@@ -13,7 +14,7 @@ namespace CarNotifyWebApi
 
             // Web API routes
             config.MapHttpAttributeRoutes();
-
+            config.Formatters.Add(new JsonMediaTypeFormatter());
             config.Routes.MapHttpRoute(
                 name: "DefaultApi",
                 routeTemplate: "api/{controller}/{action}/{id}",

@@ -90,8 +90,11 @@ C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\bin\Microsoft.AI.Dependen
 C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\bin\Microsoft.AI.WindowsServer.xml
 C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\bin\Microsoft.AI.Web.xml
 C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\obj\Debug\CarNotifyWebApi.csprojAssemblyReference.cache
 C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\obj\Debug\CarNotifyWebApi.csproj.CoreCompileInputs.cache
 C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\obj\Debug\CarNotifyWebApi.csproj.CopyComplete
 C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\obj\Debug\CarNotifyWebApi.dll
 C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\obj\Debug\CarNotifyWebApi.pdb
+C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\bin\EntityFramework.dll
+C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\bin\EntityFramework.SqlServer.dll
+C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\bin\EntityFramework.xml
+C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\bin\EntityFramework.SqlServer.xml
