@@ -49,6 +49,8 @@ C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\bin\roslyn\vbc.rsp
 C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\bin\roslyn\VBCSCompiler.exe
 C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\bin\roslyn\VBCSCompiler.exe.config
 C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\bin\Antlr3.Runtime.dll
+C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\bin\EntityFramework.dll
+C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\bin\EntityFramework.SqlServer.dll
 C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\bin\Microsoft.AI.Agent.Intercept.dll
 C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\bin\Microsoft.AI.DependencyCollector.dll
 C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\bin\Microsoft.AI.PerfCounterCollector.dll
@@ -72,6 +74,8 @@ C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\bin\System.Web.WebPages.D
 C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\bin\System.Web.WebPages.dll
 C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\bin\System.Web.WebPages.Razor.dll
 C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\bin\WebGrease.dll
+C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\bin\EntityFramework.xml
+C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\bin\EntityFramework.SqlServer.xml
 C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\bin\Newtonsoft.Json.xml
 C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\bin\System.Net.Http.Formatting.xml
 C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\bin\System.Web.Helpers.xml
@@ -94,7 +98,4 @@ C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\obj\Debug\CarNotifyWebApi
 C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\obj\Debug\CarNotifyWebApi.csproj.CopyComplete
 C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\obj\Debug\CarNotifyWebApi.dll
 C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\obj\Debug\CarNotifyWebApi.pdb
-C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\bin\EntityFramework.dll
-C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\bin\EntityFramework.SqlServer.dll
-C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\bin\EntityFramework.xml
-C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\bin\EntityFramework.SqlServer.xml
+C:\GitHub\CarNotifyWeb\CarNotifyWebApi\CarNotifyWebApi\obj\Debug\CarNotifyWebApi.csprojAssemblyReference.cache

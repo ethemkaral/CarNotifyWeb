@@ -28,6 +28,6 @@ namespace CarNotifyWebApi
         public virtual DbSet<NOTIFYLOG> NOTIFYLOG { get; set; }
         public virtual DbSet<QRINFO> QRINFO { get; set; }
         public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
-        public virtual DbSet<Token> Token { get; set; }
+        public virtual DbSet<TOKEN> Token { get; set; }
     }
 }

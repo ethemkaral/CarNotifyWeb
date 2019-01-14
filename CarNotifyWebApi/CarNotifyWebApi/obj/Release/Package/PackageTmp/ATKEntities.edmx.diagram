@@ -8,7 +8,7 @@
         <EntityTypeShape EntityType="ATKModel.NOTIFYLOG" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
         <EntityTypeShape EntityType="ATKModel.QRINFO" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
         <EntityTypeShape EntityType="ATKModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="4.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="ATKModel.Token" Width="1.5" PointX="3" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ATKModel.Token" Width="1.5" PointX="4.25" PointY="0.875" IsExpanded="true" />
         <AssociationConnector Association="ATKModel.FK_Token_QRINFO" ManuallyRouted="false" />
       </Diagram>
     </edmx:Diagrams>

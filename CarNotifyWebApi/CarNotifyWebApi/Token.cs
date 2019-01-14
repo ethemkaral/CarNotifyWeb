@@ -12,13 +12,11 @@ namespace CarNotifyWebApi
     using System;
     using System.Collections.Generic;
     
-    public partial class Token
+    public partial class TOKEN
     {
         public int ID { get; set; }
-        public string Token1 { get; set; }
-        public string Type { get; set; }
         public Nullable<int> QRId { get; set; }
-    
-        public virtual QRINFO QRINFO { get; set; }
+        public string TokenInf { get; set; }
+        public Nullable<int> Type { get; set; }
     }
 }
